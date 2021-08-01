@@ -50,3 +50,30 @@ h1 {
   width: 60%;
   transform: rotate(25deg);
 }
+
+/* features */
+
+h3 {
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+i {
+  color: #ff4c68;
+  font-size: 3rem;
+  margin: 5% 40%;
+}
+
+p {
+  text-align: center;
+
+}
+
+.features-row {
+  margin: 10% 5%;
+}
+
+.features {
+  padding: 0 50px;
+}
