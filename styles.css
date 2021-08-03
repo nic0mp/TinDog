@@ -17,6 +17,17 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: Montserrat-Bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Black"
+  /* was font-weight: bolder; */
+  /* was text-align: center; center in .features*/
+}
 /* Navigation Bar */
 
 .navbar {
@@ -57,12 +68,6 @@ h1 {
   padding: 7% 15%;
 }
 
-h3 {
-  font-family: "Montserrat-Black"
-  /* was font-weight: bolder; */
-  /* was text-align: center; center in .features*/
-}
-
 .icon {
   color: #ef8172;
   margin-bottom: 1rem;
@@ -87,4 +92,44 @@ p {
   text-align: center;
   padding:  5%;
   /*was padding 50px; */
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
