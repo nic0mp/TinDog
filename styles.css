@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -60,12 +60,17 @@ h3 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* features */
 
 #features {
+  background-color: white;
   padding: 7% 15%;
+  position: relative;
+
 }
 
 .icon {
@@ -132,4 +137,59 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-copy {
+  font-family: "Montserrat-Black"
+  line-height: 1.5;
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+/* .cta {
+color: #fff;
+text-align: center;  transferred to #cta
+}
+.cta-download-button {
+  margin: 2% 3% 5% 0;  redundant
+}
+ */
+/* Footer */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+i {
+  padding: 10px;
+}
+
+.copyright {
+  padding: 10px;
+}
+
+/* media breakpoint */
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
